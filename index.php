@@ -1,6 +1,4 @@
-<?php 
-phpinfo();
-die();
+<?php
 require_once 'class/Message.php';
 require_once 'class/GuestBook.php';
 $errors = null;

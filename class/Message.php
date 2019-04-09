@@ -3,7 +3,7 @@ class Message{
 
     const LIMIT_USERNAME = 3;
     Const LIMIT_MESSAGE = 10;
-
+    
     private $username;
     private $message;
     private $date;
