@@ -1,9 +1,8 @@
 <?php
 require 'class/OpenWeather.php';
-$meteo = new OpenWeather('fcf880fc534b21590eaf80b614e67197');
-$meteo->getForecast('Montpellier,fr');
-var_dump($meteo);
-
+$weather = new OpenWeather('fcf880fc534b21590eaf80b614e67197');
+$forecast = $weather->getForecast('Montpellier,fr');
+var_dump($forecast);
 
 
 
