@@ -29,7 +29,10 @@ $post = $query ->Fetch();
 require_once '../elements/header.php';
 ?>
     <div class="container">
-    <?php if($succes) : ?>
+    <p>
+        <a href= "/livre-d-or/blog/index.php">Revenir au listing</a>
+    </p>
+    <?php if($success) : ?>
 
         <div class="alert alert-success">
             <?= $succes ?>
