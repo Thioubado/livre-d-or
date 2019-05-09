@@ -1,4 +1,7 @@
 <?php
+namespace App\Guestbook;
+use \DateTime;
+
 class Message{
 
     const LIMIT_USERNAME = 3;

@@ -1,6 +1,10 @@
 <?php
-require_once 'class/Message.php';
-require_once 'class/GuestBook.php';
+/*require 'vendor/autoload.php';
+use App\Guestbook\{
+    GuestBook,
+    Message
+};*/
+
 $errors = null;
 $succes = false;
 

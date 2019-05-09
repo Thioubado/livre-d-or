@@ -1,4 +1,6 @@
 <?php
+//namespace App;
+//use PDO;
 require_once '../class/Post.php';
 $pdo = new PDO('mysql:host=127.0.0.1;dbname=blog', 'root', '',[
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
